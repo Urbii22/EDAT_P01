@@ -51,7 +51,7 @@ public class Time {
 
             //System.out.println(" ITERATIVO: TAMAÑO DE MUESTRA = "+ vector2.length + " TARDA: " + tiempo +" segundos");
             //System.out.println(vector2.length + "; " +tiempo1 + "; " + tiempo2 );
-            try (BufferedWriter escritor = new BufferedWriter(new FileWriter("prueba_Escritura2.csv", true))) {
+            try (BufferedWriter escritor = new BufferedWriter(new FileWriter("prueba_Escritura3.csv", true))) {
                 escritor.write(vector2.length + "; " + tiempo1 + "; " + tiempo2 + "\n");
             } catch (IOException e) {
                 System.out.println("Ocurrió un error al escribir en el archivo: " + e.getMessage());
